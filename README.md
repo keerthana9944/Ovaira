@@ -266,4 +266,4 @@ symptom-based detection -> biomarker-driven predictive intelligence
 
 To build the world’s first continuous AI-powered reproductive health intelligence platform for early detection, preventive care, and rural accessibility.
 
-**Empowering women with AI-driven reproductive health intelligence for early PCOS risk detection and preventive care**
+**Empowering women with AI-driven reproductive health intelligence for early PCOS risk detection and preventive care**"# ayira-keerthana" 
