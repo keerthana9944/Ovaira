@@ -1,269 +1,275 @@
-# AYIRA – AI for Your Integrated Reproductive Awareness
+# Ovaira – AI for Reproductive Health Awareness
 
-## AI-Powered PCOS Risk Intelligence & Preventive Reproductive Health Platform
+## AI-Powered PCOS Awareness, Risk Intelligence & Preventive Health Platform
 
-AYIRA is a biomarker-driven AI platform designed for early PCOS risk detection, continuous hormonal health monitoring, and preventive care, with a special focus on underserved and rural populations.
+**Ovaira** is an AI-powered reproductive health platform designed to help women understand hormonal health, monitor key biomarkers, and gain early awareness of potential PCOS risks.
 
-It transforms reproductive healthcare from reactive diagnosis → predictive intelligence.
+The platform focuses on **preventive health, early awareness, and accessible reproductive health knowledge**, especially for individuals who may not have easy access to medical resources or reliable health education.
 
-## Problem
+Ovaira shifts reproductive healthcare from **reactive diagnosis → proactive awareness and monitoring.**
 
-PCOS affects millions of women, yet:
+---
 
-- Diagnosis is delayed by years
-- Symptoms are normalized and ignored
-- Hormonal health awareness is low
-- Rural populations lack access to continuous monitoring
-- Preventive care is almost non-existent
+# Problem
 
-Healthcare today is symptom-based, not data-driven.
+Polycystic Ovary Syndrome (PCOS) affects millions of women worldwide, yet:
 
-## Solution
+* Diagnosis is often delayed for several years
+* Symptoms are frequently normalized or ignored
+* Awareness about hormonal health remains limited
+* Many women lack access to reliable reproductive health information
+* Preventive monitoring tools are rarely available
 
-AYIRA provides:
+As a result, many individuals only learn about PCOS **after symptoms become severe**.
 
-- AI-generated PCOS risk scoring
-- Biomarker-based health insights
-- Longitudinal risk tracking
-- Early awareness & preventive care
+Current healthcare systems largely focus on **treatment after diagnosis**, rather than **early awareness and prevention**.
 
-Through a simple, accessible digital interface.
+---
 
-## Key Features (Current Prototype)
+# Solution
 
-### Manual Biomarker Input
+**Ovaira** provides a digital platform that enables users to:
 
-Users can enter:
+* Track hormonal and metabolic biomarkers
+* Understand potential PCOS risk patterns
+* Monitor reproductive health trends
+* Access reliable educational resources
+* Ask reproductive health questions through an AI chatbot
 
-- Glucose
-- Cortisol
-- LH / FSH
-- Testosterone
-- Estradiol
-- Progesterone
-- CRP
-- Heart rate
-- Stress level
-- Skin temperature
-- Electrolytes
+Through a **simple and accessible web interface**, Ovaira empowers users with knowledge and data-driven insights into their hormonal health.
 
-### AI Risk Engine
+---
 
-Generates:
+# Key Features
 
-- PCOS Risk Score (0–100)
+## Manual Biomarker Tracking
 
-Risk Level:
+Users can manually enter key health and biomarker values, including:
 
-- Low
-- Moderate
-- High
+* Glucose
+* Cortisol
+* LH / FSH
+* Testosterone
+* Estradiol
+* Progesterone
+* CRP
+* Heart Rate
+* Stress Level
+* Skin Temperature
+* Electrolytes
 
-Based on:
+Tracking these values over time helps users observe **patterns in hormonal and metabolic health.**
 
-- LH/FSH ratio
-- Hyperandrogenism indicators
-- Inflammation markers
-- Metabolic stress
+---
 
-### Health Insights Engine
+## AI-Powered PCOS Risk Analysis
 
-Automatically detects:
+Ovaira analyzes biomarker data to generate a:
 
-- LH surge
-- Low progesterone
-- Elevated cortisol
-- High CRP
-- Elevated testosterone
+**PCOS Risk Score (0–100)**
 
-### Risk Trend Visualization
+Risk levels include:
 
-Interactive chart showing:
+* Low Risk
+* Moderate Risk
+* High Risk
 
-- PCOS risk progression over time
-- Health trajectory
+The risk engine evaluates indicators such as:
 
-### Automated Report Generation
+* LH / FSH imbalance
+* Hyperandrogenism markers
+* Inflammation indicators
+* Metabolic stress signals
 
-Each report includes:
+This helps users identify **early warning signs** and seek medical advice when necessary.
 
-- Biomarker averages
-- Derived clinical indicators
-- Risk score
-- Risk level
-- AI-generated health summary
+---
 
-### Offline-First Architecture
+## Health Insights Engine
 
-The current AYIRA prototype is designed as an **offline-first system**.
+The system automatically detects potential health signals such as:
 
-- All biomarker data is stored locally using SQLite
-- AI risk analysis runs on-device
-- Reports are generated without requiring internet connectivity
+* Possible LH surge
+* Low progesterone levels
+* Elevated cortisol levels
+* High CRP indicating inflammation
+* Elevated testosterone levels
 
-This makes AYIRA:
+These insights help users better understand **how biomarker changes relate to reproductive health.**
 
-- usable in low-resource and rural settings
-- privacy-preserving
-- independent of continuous cloud access
+---
 
-Future versions will support secure cloud synchronization while retaining offline functionality for accessibility.
+## Risk Trend Visualization
 
+Ovaira provides interactive charts that display:
 
-## Implementation Phases
+* PCOS risk progression over time
+* Biomarker trends
+* Overall hormonal health trajectory
 
-### Phase 1 – Digital AI Prototype (Current Stage)
+This allows users to observe **long-term patterns in their reproductive health.**
 
-Manual data → AI analysis → Report generation → Risk visualization
+---
 
-This phase validates:
+## AI Health Chatbot
 
-- Risk model logic
-- Data pipeline
-- User workflow
-- Health intelligence layer
+The integrated chatbot allows users to ask questions about:
 
-### Phase 2 – Real-Time Smart Biomarker Integration
+* PCOS
+* Hormonal health
+* Menstrual cycles
+* Lifestyle and health habits
+* Preventive reproductive care
 
-Wearable sensors → BLE → AYIRA → AI analysis → Live health insights
+The chatbot acts as a **digital reproductive health assistant**, improving accessibility to reliable health information.
 
-Planned capabilities:
+---
 
-- Non-invasive biomarker acquisition
-- Continuous monitoring
-- Real-time risk prediction
-- Personalized recommendations
+## Health Awareness Articles
 
-### Target Users
+Ovaira includes curated educational content covering topics such as:
 
-AYIRA is designed primarily for:
+* PCOS awareness
+* Hormonal health basics
+* Understanding the menstrual cycle
+* Lifestyle habits for hormonal balance
+* Preventive reproductive health tips
 
-- Women and adolescent girls
-- Rural and underserved populations
-- Individuals with limited access to hormonal diagnostics
-- Preventive healthcare users
+This helps users gain **clear, accessible knowledge about reproductive health.**
 
-### Social Impact
+---
 
-AYIRA aims to:
+# Offline-First Architecture
 
-- Break myths around menstrual and hormonal health
-- Promote early PCOS risk awareness
-- Enable self-monitoring and preventive care
-- Provide accessible reproductive health intelligence
+Ovaira is designed with an **offline-first architecture**.
 
-With a special focus on:
+* Health data is stored locally using **SQLite**
+* Core risk analysis runs locally
+* Reports can be generated without internet access
 
-- Teenage girls in rural areas
-- where symptoms are often ignored and diagnosis is delayed.
+This allows Ovaira to remain usable in **low-connectivity environments**, making it more accessible for rural and underserved communities.
 
-### Future Clinical Collaboration
+Future versions may include **secure cloud synchronization**.
 
-We aim to collaborate with:
+---
 
-- Fertility centres
-- Gynecologists
-- Diagnostic labs
+# Target Users
 
-For:
+Ovaira is designed for:
 
-- Clinical validation
-- Data-driven treatment support
-- Research integration
+* Women and adolescent girls
+* Individuals interested in PCOS awareness
+* Users monitoring hormonal health
+* Communities with limited access to reproductive health education
 
-### Future Roadmap
+---
 
-- AI health chatbot for reproductive health queries
-- Symptom tracker
-- Personalized lifestyle & nutrition guidance
-- Multilingual support for rural accessibility
-- Wearable integration
-- Cloud health records
-- Clinical decision support dashboard
+# Social Impact
 
-### Tech Stack
+Ovaira aims to:
 
-**Frontend**
+* Increase awareness about PCOS
+* Encourage early monitoring of hormonal health
+* Reduce stigma around menstrual and reproductive health discussions
+* Provide accessible digital reproductive health guidance
 
-- React (Vite)
-- Plotly.js
-- Axios
-- Custom CSS (responsive UI)
+With a strong focus on **young women and underserved communities.**
 
-**Backend**
+---
 
-- Node.js
-- Express.js
-- SQLite
+# Future Roadmap
 
-### System Architecture
+Planned improvements include:
 
-User Input → Express API → AI Risk Engine → SQLite Database → Report Generation → React Dashboard
+* Symptom tracking system
+* Personalized lifestyle recommendations
+* Multilingual support for improved accessibility
+* Doctor consultation integration
+* Expanded health education resources
+* Advanced AI health insights
 
-### How It Works
+---
 
-- User enters biomarker values
-- Data stored in database
-- AI engine computes risk score
-- Report is generated
-- Risk trend is visualized
+# Tech Stack
 
-### Founding Team
+## Frontend
 
-AYIRA is built by an interdisciplinary team combining technology and biomedical research.
+* React (Vite)
+* Plotly.js
+* Axios
+* Custom CSS
 
-**Nukabatni Herald Keerthana – Founder & Technology Lead**
+## Backend
 
-- Full-stack development
-- AI risk engine
-- System architecture
-- Data visualization
-- Product design
+* Node.js
+* Express.js
+* SQLite
 
-**U. Sree Chandrika – Co-founder & Research Lead**
+---
 
-- Biomarker research
-- Clinical range mapping
-- Scientific validation
-- Health model grounding
+# System Architecture
 
-### Local Setup
+User Input
+    ↓
+Express API
+    ↓
+AI Risk Engine
+    ↓
+SQLite Database
+    ↓
+Report Generation
+    ↓
+React Dashboard
 
-**Backend**
+---
+
+# How It Works
+
+1. User manually enters biomarker values
+2. Data is stored in the database
+3. AI risk engine analyzes the data
+4. PCOS risk score is generated
+5. Health insights are produced
+6. Risk trends are visualized on the dashboard
+
+---
+
+
+# Local Setup
+
+## Backend
+
+```bash
 cd backend
 npm install
-npm start
+npm run dev
+```
 
-**Frontend**
+## Frontend
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
-### Innovation
+---
 
-AYIRA shifts PCOS care from:
+# Innovation
 
-symptom-based detection -> biomarker-driven predictive intelligence
+Ovaira brings a **data-driven approach to reproductive health awareness** by combining:
 
-### Prototype Status
+* Biomarker tracking
+* AI-powered insights
+* Health education
+* Conversational AI assistance
 
-**Completed**
+This approach encourages **early awareness and preventive reproductive healthcare.**
 
-- Manual biomarker input
-- AI risk score generation
-- Health insights
-- Report generation
-- Risk trend visualization
+---
 
-### In Progress
+# Vision
 
-- Chatbot
-- Symptom tracker
-- Multilingual interface
-- Wearable integration
+To build an **AI-powered reproductive health awareness platform** that empowers women to understand, monitor, and take control of their hormonal health through data-driven insights and accessible education.
 
-### Vision
 
-To build the world’s first continuous AI-powered reproductive health intelligence platform for early detection, preventive care, and rural accessibility.
-
-**Empowering women with AI-driven reproductive health intelligence for early PCOS risk detection and preventive care**"# ayira-keerthana" 
